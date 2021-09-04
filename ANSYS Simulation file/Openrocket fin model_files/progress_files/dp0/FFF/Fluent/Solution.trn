@@ -1,0 +1,70 @@
+
+Build Time: Nov 20 2020 15:49:18 EST 
+Executable Path: C:/PROGRA~1/ANSYS Inc/ANSYS Student/v211/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core  O.S.         PID    Vendor                           
+-------------------------------------------------------------------------------
+n3    Shankar   4/8  Windows-x64  13352  Intel(R) Core(TM) i5-1035G1      
+n2    Shankar   3/8  Windows-x64  19136  Intel(R) Core(TM) i5-1035G1      
+n1    Shankar   2/8  Windows-x64  17064  Intel(R) Core(TM) i5-1035G1      
+n0*   Shankar   1/8  Windows-x64  6452   Intel(R) Core(TM) i5-1035G1      
+host  Shankar        Windows-x64  14028  Intel(R) Core(TM) i5-1035G1      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+Reading "D:\Project\Openrocket fin model - 3D\Openrocket fin model_files\dp0\FFF\MECH\FFF.msh"...
+Buffering for file scan...
+
+   16337 nodes, binary.
+    5771 nodes, binary.
+    1344 triangular wall faces, zone  1, binary.
+  224037 triangular interior faces, zone  2, binary.
+     794 triangular velocity-inlet faces, zone  6, binary.
+     788 triangular pressure-outlet faces, zone  7, binary.
+    8600 triangular wall faces, zone  8, binary.
+  114900 tetrahedral cells, zone  3, binary.
+
+
+
+Following contexts active in the case file have been de-activated because of their current context control conditions:
+"coupled-pseudo-transient"
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 28703/901 = 31.8568
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	wall
+	outlet
+	inlet
+	fluid_domain
+	interior-fluid_domain
+	wall-fluid_domainCreating sliding interface intf ... 
+==============================================================================
+
+Node 0: Process 6452: Received signal SIGSEGV.
+
+==============================================================================
+
+==============================================================================
+
+Node 3: Process 13352: Received signal SIGSEGV.
+
+==============================================================================
+
+===============Message from the Cortex Process================================
+
+Fatal error in one of the compute processes.
+
+==============================================================================
